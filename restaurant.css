@@ -1,0 +1,65 @@
+body {
+    background: url('https://i.ibb.co/mXhQfkr/3086384.jpg');
+    backgroud-image:fixed;
+    background-image:no-repete;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    gap:450px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 20px;
+}
+.menu ul{
+    display:flex;
+
+}
+.menu li{
+    margin-left:20px;
+    list-style:none;
+    padding:3px 15px 3px 15px;
+    flex-grow:1;
+    text-align:center;
+}
+.menu ul li a{
+    text-decoration:none;
+    color:#ffff;
+    font-size:1.1rem;
+    font-family:Georgia;
+}
+.logo{
+    font-size: 30px;
+    font-family:Lucida Handwriting;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+}
+.slo{
+    font-size:30px;
+    font-family:Apple Chancery, cursive;
+     display: grid;
+            place-items: center;
+            height: 100vh;
+            color:white;
+}
+.nav a:hover {
+            color: #007BFF;
+            background-color: #e0e0e0; /* Optional background color on hover */
+            border-radius: 5px; /* Optional rounded corners */
+        }
